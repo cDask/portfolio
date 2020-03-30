@@ -1,0 +1,16 @@
+$test-colour: #ff2800;
+
+.container{
+    header{
+        h1{
+            font-size: 10px;
+            color: $test-colour;
+        }
+        p{
+            font-size: 30px;
+        }
+        h3{
+            font-size: 25px;
+        }
+    }
+}
