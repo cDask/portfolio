@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-decoration: none;
   height: 15vh;
 }
 .top .navigation {
@@ -16,14 +15,37 @@
   height: 100%;
 }
 .top .navigation nav a {
+  text-decoration: none;
   border: 2px solid hidden;
-  border-radius: 50%;
-  margin: 2px;
+  border-radius: 5%;
+  margin: 8px;
   padding: 3px;
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
 }
-.top .navigation nav a:hover {
-  border: 2px solid white;
-  animation: spin 2s ease-in;
+.top .navigation nav a:before {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  border: #e1e1e1 solid 4px;
+  border-radius: 5px;
+  top: -16px;
+  right: -16px;
+  bottom: -16px;
+  left: -16px;
+  opacity: 0;
+  transition-duration: 0.3s;
+  transition-property: top, right, bottom, left;
+}
+.top .navigation nav a:hover:before, .top .navigation nav a:focus:before, .top .navigation nav a:active:before {
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  opacity: 1;
 }
 .top .contact {
   width: 30%;
@@ -31,6 +53,9 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+.top .contact a {
+  text-decoration: none;
 }
 
 @keyframes spin {
