@@ -95,7 +95,8 @@
 }
 @media only screen and (max-width: 600px) {
   .top {
-    display: relative;
+    position: absolute;
+    display: sticky;
     height: 250px;
     width: 100vw;
     transform: translateY(-230px);
