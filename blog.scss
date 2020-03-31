@@ -1,0 +1,14 @@
+@import 'theme.scss';
+
+.content{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    h2{
+        width: 80%;
+        border-bottom: 2px dashed white;
+        text-align: center;
+        padding-bottom: 5px;
+        margin-top: 20px;
+    }
+}

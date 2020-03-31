@@ -1,20 +1,16 @@
-$darkest: #231f28;
-$medium:#475170;
-$light :#718eae;
-$blueish: #23324c;
-$accent-colour: #8d453c;
-@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Arimo|Exo+2|Rubik|Source+Sans+Pro&display=swap');
+@import './theme.scss';
 @import './top-bar.css';
 @import './main-page.css';
+@import './blog.css';
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    color: white;
-    font-family: 'Rubik', sans-serif;
+    color: $texts;
+    font-family: $general;
 }
 body{
-    background-color:#231f28;
+    background-color: $main;
 
 }
 .container{
