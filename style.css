@@ -49,6 +49,61 @@
   flex-flow: row-reverse;
 }
 
+.content {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+}
+.content h2 {
+  font-family: "Exo 2", sans-serif;
+  font-size: 2em;
+  width: 80%;
+  border-bottom: 2px dashed white;
+  text-align: center;
+  padding-bottom: 5px;
+  margin: 20px 0px;
+}
+.content .about-me-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.content .about-me-container .sub-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.content .about-me-container .sub-section h3 {
+  width: 100%;
+  font-family: "Archivo", sans-serif;
+  text-align: center;
+  font-size: 1.3em;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+.content .about-me-container .sub-section .entry {
+  width: 300px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 10px;
+  border: 2px solid #718eae;
+  border-radius: 5px;
+}
+.content .about-me-container .sub-section .entry * {
+  margin: 4px 10px;
+}
+.content .about-me-container .sub-section .entry img {
+  border: 2px solid #475170;
+  width: 90%;
+}
+.content .about-me-container .sub-section .entry p {
+  align-self: flex-end;
+}
+
 * {
   margin: 0px;
   padding: 0px;

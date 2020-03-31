@@ -3,6 +3,7 @@
 @import './main-page.css';
 @import './blog.css';
 @import './style-sheets/projects.scss';
+@import './style-sheets/about-me.scss';
 *{
     margin: 0px;
     padding: 0px;
@@ -12,5 +13,4 @@
 }
 body{
     background-color: $main;
-
 }

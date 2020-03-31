@@ -1,0 +1,54 @@
+.content {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  h2 {
+    font-family: $titles;
+    font-size: 2em;
+    width: 80%;
+    border-bottom: 2px dashed $texts;
+    text-align: center;
+    padding-bottom: 5px;
+    margin: 20px 0px;
+  }
+  .about-me-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .sub-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      h3 {
+        width: 100%;
+        font-family: $sub-title;
+        text-align: center;
+        font-size: 1.3em;
+        margin: 10px;
+        margin-bottom: 20px;
+      }
+      .entry {
+        width: 300px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        margin: 10px;
+        border: 2px solid $light;
+        border-radius: 5px;
+        * {
+          margin: 4px 10px;
+        }
+        img {
+          border: 2px solid $medium;
+          width: 90%;
+        }
+        p {
+          align-self: flex-end;
+        }
+      }
+    }
+  }
+}
