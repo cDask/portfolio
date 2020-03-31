@@ -2,13 +2,53 @@
 
 .content{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     justify-content: flex-start;
     h2{
+        font-family: $titles;
+        font-size: 2em;
         width: 80%;
-        border-bottom: 2px dashed white;
+        border-bottom: 2px dashed $texts;
         text-align: center;
         padding-bottom: 5px;
-        margin-top: 20px;
+        margin: 20px 0px;
+    }
+    .project{
+        width:100%;
+        h3{
+            font-family: $sub-title;
+            text-align: center;
+            font-size: 1.3em;
+            margin: 10px;
+            margin-bottom: 20px;
+        }
+        .entry{
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            margin: 10px;
+            border: 2px solid $light;
+            border-radius: 5px;
+            *{
+                margin: 4px 10px;
+            }
+            h4{
+                align-self: flex-start;
+                font-family: $sub-title-narrow;
+                font-size: 1.2em;
+            }
+            .date{
+                align-self: flex-start;
+                font-size: 1.2em;
+                font-family: $sub-title-narrow;
+            }
+            img{
+                border: 2px solid $medium;
+                width: 90%;
+            }
+            p{
+                align-self: flex-end;
+            }
+        }
     }
 }
