@@ -15,7 +15,12 @@
     }
     .project{
         width:100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         h3{
+            width:100%;
             font-family: $sub-title;
             text-align: center;
             font-size: 1.3em;
@@ -23,6 +28,7 @@
             margin-bottom: 20px;
         }
         .entry{
+            width: 300px;
             display: flex;
             flex-flow: column;
             align-items: center;

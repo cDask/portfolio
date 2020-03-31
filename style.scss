@@ -1,7 +1,8 @@
-@import './theme.scss';
+@import './style-sheets/theme.scss';
 @import './top-bar.css';
 @import './main-page.css';
 @import './blog.css';
+@import './style-sheets/projects.scss';
 *{
     margin: 0px;
     padding: 0px;
@@ -12,18 +13,4 @@
 body{
     background-color: $main;
 
-}
-.container{
-    header{
-        h1{
-            font-size: 10px;
-            color: $light;
-        }
-        p{
-            font-size: 30px;
-        }
-        h3{
-            font-size: 25px;
-        }
-    }
 }

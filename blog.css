@@ -15,8 +15,13 @@
 }
 .content .project {
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .content .project h3 {
+  width: 100%;
   font-family: "Archivo", sans-serif;
   text-align: center;
   font-size: 1.3em;
@@ -24,6 +29,7 @@
   margin-bottom: 20px;
 }
 .content .project .entry {
+  width: 300px;
   display: flex;
   flex-flow: column;
   align-items: center;

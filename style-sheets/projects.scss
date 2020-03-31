@@ -1,0 +1,51 @@
+@import "theme.scss";
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    font-family: $titles;
+    font-size: 2em;
+    width: 80%;
+    border-bottom: 2px dashed $texts;
+    text-align: center;
+    padding-bottom: 5px;
+    margin: 20px 0px;
+  }
+  .project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .project {
+      margin-top: 20px;
+      width: 80%;
+      h3 {
+        width: 100%;
+        font-family: $sub-title;
+        text-align: center;
+        font-size: 1.3em;
+        margin: 10px;
+        margin-bottom: 20px;
+      }
+      .project-details {
+          display: flex;
+          justify-content: space-evenly;
+          flex-wrap: wrap;
+        p {
+        }
+        img {
+          height: 100%;
+          margin: 10px;
+          border: 2px double $texts;
+        }
+      }
+    }
+    .project:nth-child(2n) {
+        .project-details{
+            flex-flow: row-reverse;
+        }
+    }
+  }
+}

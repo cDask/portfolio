@@ -2,6 +2,53 @@
 @import './top-bar.css';
 @import './main-page.css';
 @import './blog.css';
+@import url("https://fonts.googleapis.com/css?family=Archivo+Narrow|Arimo|Exo+2|Rubik|Source+Sans+Pro&display=swap");
+.project-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project-content h2 {
+  font-family: "Exo 2", sans-serif;
+  font-size: 2em;
+  width: 80%;
+  border-bottom: 2px dashed white;
+  text-align: center;
+  padding-bottom: 5px;
+  margin: 20px 0px;
+}
+.project-content .project-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.project-content .project-container .project {
+  margin-top: 20px;
+  width: 80%;
+}
+.project-content .project-container .project h3 {
+  width: 100%;
+  font-family: "Archivo", sans-serif;
+  text-align: center;
+  font-size: 1.3em;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+.project-content .project-container .project .project-details {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.project-content .project-container .project .project-details img {
+  height: 100%;
+  margin: 10px;
+  border: 2px double white;
+}
+.project-content .project-container .project:nth-child(2n) .project-details {
+  flex-flow: row-reverse;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -12,17 +59,6 @@
 
 body {
   background-color: #231f28;
-}
-
-.container header h1 {
-  font-size: 10px;
-  color: #718eae;
-}
-.container header p {
-  font-size: 30px;
-}
-.container header h3 {
-  font-size: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
