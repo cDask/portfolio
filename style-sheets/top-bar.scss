@@ -1,4 +1,3 @@
-@import "theme.scss";
 
 .top {
   display: flex;
@@ -96,6 +95,7 @@
 }
 @media only screen and (max-width: 600px) {
   .top {
+    display: relative;
     height: 250px;
     width: 100vw;
     transform: translateY(-230px);
