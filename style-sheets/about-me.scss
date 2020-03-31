@@ -14,6 +14,7 @@
   .about-me-container {
     width: 100%;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -31,22 +32,31 @@
         margin-bottom: 20px;
       }
       .entry {
-        width: 300px;
+        width: 200px;
         display: flex;
         flex-flow: column;
         align-items: center;
         margin: 10px;
-        border: 2px solid $light;
+        border: 3px solid $light;
         border-radius: 5px;
         * {
           margin: 4px 10px;
         }
+        h4{
+          font-family: $sub-title-narrow;
+          font-size: 1.5em;
+        }
         img {
           border: 2px solid $medium;
+          border-radius: 50%;
           width: 90%;
+          background-color: $texts;
+
         }
         p {
+          text-align: center;
           align-self: flex-end;
+          margin: 10px;
         }
       }
     }
