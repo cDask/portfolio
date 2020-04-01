@@ -1,19 +1,6 @@
-@import "theme.scss";
-
 .project-content {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  h2 {
-    font-family: $titles;
-    font-size: 2em;
-    width: 80%;
-    border-bottom: 2px dashed $texts;
-    text-align: center;
-    padding-bottom: 5px;
-    margin: 20px 0px;
-  }
   .project-container {
     display: flex;
     justify-content: center;

@@ -1,18 +1,4 @@
-@import 'theme.scss';
-
 .content{
-    display: flex;
-    flex-flow: column;
-    justify-content: flex-start;
-    h2{
-        font-family: $titles;
-        font-size: 2em;
-        width: 80%;
-        border-bottom: 2px dashed $texts;
-        text-align: center;
-        padding-bottom: 5px;
-        margin: 20px 0px;
-    }
     .project{
         width:100%;
         display: flex;

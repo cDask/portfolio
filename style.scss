@@ -4,6 +4,7 @@
 @import './style-sheets/blog.scss';
 @import './style-sheets/projects.scss';
 @import './style-sheets/about-me.scss';
+
 *{
     margin: 0px;
     padding: 0px;
@@ -11,11 +12,21 @@
     color: $texts;
     font-family: $general;
 }
+
 body{
     background-color: $main;
     .content{
-        h2 h1{
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        h2{
             margin-top: 15vh;
+            font-family: $titles;
+            font-size:2em;
+            width: 80%;
+            border-bottom: 2px dashed;
+            text-align: center;
+            padding-bottom: 5px;
         }
     }
 }
@@ -23,8 +34,8 @@ body{
 @media only screen and (max-width: 600px){
     body{
         .content{
-            h2 h1{
-                margin-top: 30px;
+            h2{
+                margin-top: 40px;
             }
         }
     }
