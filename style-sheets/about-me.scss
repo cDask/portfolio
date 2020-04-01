@@ -12,12 +12,13 @@
       width: 80vw;
       display: flex;
       flex-flow: row wrap-reverse;
-      justify-content: space-around;
+      justify-content: center;
       align-items: center;
       .intro {
-        margin-top: 5px;
-        font-size: 0.8em;
+        margin: 10px;
+        font-size: 14px;
         width: 50%;
+        max-width: 200px;
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
@@ -26,7 +27,7 @@
         .hvr-radial-out {
           margin-top: 10px;
           padding: 10px;
-          background-color: $dark;
+          background-color: $medium;
           border-radius: 8px;
           border: 1px solid $dark;
           a {
@@ -123,7 +124,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: $medium;
+  background: $light;
   border-radius: 100%;
   transform: scale(0);
   transition-property: transform;
