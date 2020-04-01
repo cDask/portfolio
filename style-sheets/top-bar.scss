@@ -1,9 +1,12 @@
 
 .top {
+  background-color: $main;
   display: flex;
+  position: fixed;
   justify-content: space-between;
   align-items: center;
   height: 15vh;
+  width: 100vw;
   .navigation {
     margin-left: 10px;
     width: 70%;
@@ -83,6 +86,81 @@
   }
 }
 
+.input-form {
+  display: none;
+}
+.test-box{
+  position: relative;
+  left: -250px;
+  background-color: $light;
+  margin: 10px;
+  width: 250px;
+  z-index: 100;
+  padding: 10px;
+  border: 2px solid $dark;
+  border-radius: 8px;
+}
+
+
+/* ids */
+
+#button {
+  display: block;
+  height: 30px;
+  width: 30px;
+}
+
+#button label span {
+  display: block;
+}
+
+#button input:checked + span + .input-form{
+  display: block;
+}
+
+#button label input[type=checkbox] {
+  display: none;
+}
+
+.input-contact{
+	height: 25px;
+	font-size: 15px;
+  margin: 6px 0px;
+  width:230px;
+}
+
+#email-msg {
+	font-size: 13px;
+	margin: 7px 0px;
+}
+
+input[type=submit] {
+	display: inline-block;
+	padding: 6px;
+	background: $accent-colour;
+	color: $texts;
+	font-size: 15px;
+	border: none;
+	margin: 5px 0px;
+	border-radius: 5px;
+}
+input{
+  color: $dark;
+}
+textarea{
+  color: $dark;
+  height: 100px;
+  width: 230px;
+  font-size: 15px;
+	margin: 6px 0px;
+}
+
+form {
+	display: flex;
+	width: 400px;
+	flex-direction: column;
+}
+
 @keyframes spin {
   0% {
     // transform: rotate(0deg);
@@ -95,11 +173,10 @@
 }
 @media only screen and (max-width: 600px) {
   .top {
-    position: absolute;
-    display: sticky;
+    position: fixed;
     height: 250px;
     width: 100vw;
-    transform: translateY(-230px);
+    transform: translateY(-220px);
     flex-direction: column;
     justify-content: space-evenly;
     background-color: $medium;
@@ -115,7 +192,18 @@
     }
     .contact {
         width: 100%;
-      margin-bottom: 20px;
+      margin-bottom: 34px;
+      .icon{
+        .button{
+          .input-form{
+            display: none;
+            .test-box{
+
+              width:200px;
+            }
+          }
+        }
+      }
     }
   }
   .top:hover,
@@ -124,5 +212,8 @@
     transform: translateY(0px);
     transition: 0.5s;
     transition-delay: 0.2s;
+  }
+  .test-box{
+    left: -15vw;
   }
 }
