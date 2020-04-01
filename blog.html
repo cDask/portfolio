@@ -7,31 +7,72 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-      <div class="top">
-        <div class="navigation">
-          <nav>
-            <a href="./index.html" class="hvr-outline-in">Home</a>
-            <a href="./about.html">About Me</a>
-            <a href="./projects.html">Projects</a>
-            <a href="./blog.html">The Code Blog</a>
-          </nav>
+    <div class="top">
+      <div class="navigation">
+        <nav>
+          <a href="./index.html" class="hvr-outline-in">Home</a>
+          <a href="./about.html">About Me</a>
+          <a href="./projects.html">Projects</a>
+          <a href="./blog.html">The Code Blog</a>
+        </nav>
+      </div>
+      <div class="contact">
+        <div class="icon" id="mail">
+          <div id="button">
+            <label>
+              <input type="checkbox" value="1" />
+              <span
+                ><img src="./resources/icons/mail-blue.svg" alt="Mail"
+              /></span>
+              <div class="input-form">
+                <div class="test-box">
+                  <form>
+                    <label for="name">Name</label>
+                    <input
+                      class="input-contact"
+                      type="text"
+                      placeholder="Name"
+                      name="name"
+                      id="name"
+                    />
+                    <label for="email">Email address</label>
+                    <input
+                      class="input-contact"
+                      type="email"
+                      placeholder="Enter email"
+                      name="email"
+                      id="email"
+                    />
+                    <label for="message">Message</label>
+                    <textarea
+                      placeholder="Message"
+                      name="message"
+                      id="message"
+                    ></textarea>
+                    <div class="submit">
+                      <input type="submit" value="Submit" />
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </label>
+          </div>
         </div>
-        <div class="contact">
-          <div class="icon">
-            <img src="./resources/icons/mail-blue.svg" alt="Mail" />
-          </div>
-          <div class="icon">
-            <a href=""
-              ><img src="./resources/icons/github-blue.svg" alt="Git hub"
-            /></a>
-          </div>
-          <div class="icon">
-            <a href=""
-              ><img src="./resources/icons/linkedin-blue.svg" alt="Linked In"
-            /></a>
-          </div>
+        <div class="icon">
+          <a href="https://github.com/cDask"
+            ><img src="./resources/icons/github-blue.svg" alt="Git hub"
+          /></a>
+        </div>
+        <div class="icon">
+          <a href="https://www.linkedin.com/in/daniel-ask-07bb691a3/"
+            ><img src="./resources/icons/linkedin-blue.svg" alt="Linked In"
+          /></a>
         </div>
       </div>
+      <div class="icon menu-icon">
+        <img src="./resources/icons/menu-white.svg" alt="" />
+      </div>
+    </div>
     <div class="content">
       <h2>The Code Blog</h2>
       <div class="project">
