@@ -6,7 +6,7 @@
   position: fixed;
   justify-content: space-between;
   align-items: center;
-  height: 15vh;
+  height: 10vh;
   width: 100vw;
 }
 .top .navigation {
@@ -412,6 +412,9 @@ form {
 }
 
 body {
+  background: url("./resources/images/photo-of-night-sky-1025469.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: #231f28;
 }
 body .content {

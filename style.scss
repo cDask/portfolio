@@ -14,6 +14,9 @@
 }
 
 body{
+    background: url("./resources/images/photo-of-night-sky-1025469.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: $main;
     .content{
         display: flex;
