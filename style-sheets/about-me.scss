@@ -50,6 +50,8 @@
           border: 2px solid $medium;
           border-radius: 50%;
           width: 90%;
+          height: auto;
+          object-fit: cover;
           background-color: $texts;
 
         }
