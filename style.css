@@ -219,6 +219,7 @@ form {
   }
 }
 .home-content {
+  background-size: cover;
   height: 100vh;
   display: flex;
   flex-flow: column;
@@ -560,11 +561,10 @@ form {
 }
 
 body {
-  background: url("./resources/images/photo-of-night-sky-1025469.jpg");
-  background-size: cover;
+  background: url("./resources/images/photo-of-night-sky-png.png");
+  background-size: 100wv;
   background-repeat: no-repeat;
   background-color: #231f28;
-  background-position: center;
 }
 body .content {
   display: flex;

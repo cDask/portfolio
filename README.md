@@ -41,11 +41,19 @@ The website has been created in so to make interactions with the website dynamic
 
 ### Accessible
 
-Website has gone through an accessibility audit to ensure its compliant an accessible.
+Website has gone through an accessibility audit  using google chrome lighthouse function. This is to test that the website is usable by as many people as possible including people with disabilities.The test is measure out of 100 and the results are displayed below. 
+
+![Lighthouse Accessibility Score](./resources/documentation/accessibility-score.png)
 
 ### SRI integrity
 
-The HTML contains an SRI integrity check to provide some security.
+The HTML contains an sub resource integrity check. This is to provide some security but checking the integrity of th CSS attached to each html page.
+
+### Branch Variety
+
+If you get the source code from github there are a two branches that provide an alternative experience of the website. These two are:
+-   light-mode - I natively built the webpage in a dark theme. Checking out this branch will give you a light theme alternative
+-   grid-art - This is an unfinished branch where I use CSS grid to make an image for home page.
 
 ## Design
 

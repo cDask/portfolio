@@ -14,11 +14,11 @@
 }
 
 body {
-  background: url("./resources/images/photo-of-night-sky-1025469.jpg");
-  background-size: cover;
+  background: url("./resources/images/photo-of-night-sky-png.png");
+  background-size: 100wv;
   background-repeat: no-repeat;
   background-color: $main;
-  background-position: center;
+  // background-position: center;
   .content {
     display: flex;
     flex-flow: column;
