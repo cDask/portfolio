@@ -12,7 +12,7 @@ The purpose of this website is to showcase my HTML and CSS skills as well as pro
 
 ## Functionality and Features
 
-The website will has a few key features listed below:
+The website has a few key features as listed below:
 
 ### Four pages
 
@@ -41,7 +41,7 @@ The website has been created in so to make interactions with the website dynamic
 
 ### Accessible
 
-Website has gone through an accessibility audit to ensure its compliant an accesible.
+Website has gone through an accessibility audit to ensure its compliant an accessible.
 
 ### SRI integrity
 
@@ -53,9 +53,13 @@ The HTML contains an SRI integrity check to provide some security.
 
 To help conceptualize this project and give me inspiration I used a mood board on Pinterest as seen below. 
 
-![]()
+![Mood Board Screen Shot](./resources/documentation/moodboard.png)
 
-The full mood board for this project can be found here.
+The full mood board for this project can be found [here](https://www.pinterest.com.au/dask3/portfolio-website/ "Pinterest Mood Board").
+
+I ended up being quite drawn to space, neon lights and traditional japanese architecture. As I didn't think of wood textures would come out nicely on a web page I decided to use space as my inspiration I passed a space image through this [website](https://artsexperiments.withgoogle.com/artpalette/colors/231f28-475170-718eae-23324c-8d453c "Colour Image Website"). Which gave me the colour scheme I ended up using. The colours ended up a little flatter than expected but still worked well.
+
+For fonts I decided to use quite easy legible fonts all with smooth blocky letter. The way I found them was to use this [website](https://fontjoy.com/ "Font Generator") and some searching on the web.
  
 ### Wire Frame
 
@@ -63,25 +67,25 @@ After mood boarding I used these wire frames to make an plan for how things are 
 
 #### Home Page
 
-![]()
+![Home Page Wire Frame](./resources/documentation/home-page-wire-frame.png)
 
 #### About Me Page
 
-![]()
+![About Me Page Wire Frame](./resources/documentation/about-me-wire-frame.png)
 
 #### Projects Page
 
-![]()
+![Projects Page Wire Frame](./resources/documentation/projects-wire-frame.png)
 
 #### Blog Page
 
-![]()
+![Blog Page Wire Frame](./resources/documentation/blog-wire-frame.png)
 
-### Sitemap
+### Site Map
 
-Below is the sitemap of the website.
+Below is the site map of the website.
 
-![]()
+![Portfolio Site Map](./resources/documentation/site-map-transparent.png)
 
 
 ## End Product
