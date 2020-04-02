@@ -16,14 +16,14 @@ The website has a few key features as listed below:
 
 ### Four pages
 
-The website has no more than 4 html pages to each hold different aspects of my website. These four pages are:
+The website has no more than 4 html pages to that each hold different aspects of my website. These four pages are:
 
 -   Home 
-    - This is the front page of the website which will just holds my name and give the website an stylized front. 
+    - This is the front page of the website which just shows my name and give the website an stylized front. 
 -   About Me
     - This page holds some general information about me such as education, skills and hobbies.
 -   Projects
-    -   This page holds more information on the developing projects I've completed or been a part in
+    -   This page holds more information on the developing projects I've completed or been a part of.
 -   The Code Blog
     -   This is a blog talking about some struggles or thoughts I'm having working on different development projects.
 
@@ -33,21 +33,21 @@ The website is mobile friendly and should be legible in all devices regardless o
 
 ### Navigation
 
-The website has a persistent navigation bar that is present on all pages. It also fixed and will stay on screen as you scroll up and down the page. The navigation bar includes links to all 4 pages, link to my Github account, link to my Linkedin profile and a way to contact me through the website. The navigation bar has been adapted to a pull down menu when on mobile in other to make readability and navigation easier on different devices.
+The website has a persistent navigation bar that is present on all pages. It is also fixed and will stay on screen as you scroll up and down the page. The navigation bar includes links to all 4 pages, link to my Github account, link to my Linkedin profile and a way to contact me through the website. The navigation bar has been made into a pull down menu when on mobile in other to make readability and navigation easier on different devices.
 
 ### Interactive
 
-The website has been created in so to make interactions with the website dynamic and easy to follow. This means item that can be clicked will animate so as to give users a better understanding of what is and what is not an Interactive element.
+The website has been created so that interactions with the website are dynamic and easy to follow. This means item that can be clicked will animate so as to give users a better understanding of what is and what is not an interactive element.
 
 ### Accessible
 
-Website has gone through an accessibility audit  using google chrome lighthouse function. This is to test that the website is usable by as many people as possible including people with disabilities.The test is measure out of 100 and the results are displayed below. 
+Website has gone through an accessibility audit  using google chrome lighthouse function. This is to test that the website is usable by as many people as possible including people with disabilities.The test is measured out of 100 and the results are displayed below. 
 
 ![Lighthouse Accessibility Score](./resources/documentation/accessibility-score.png)
 
 ### SRI integrity
 
-The HTML contains an sub resource integrity check. This is to provide some security but checking the integrity of th CSS attached to each html page.
+The HTML contains an sub resource integrity check. This is to provide some security by checking the integrity of the CSS attached to each html page. This is done using a sha384 hash that has been generated from the style.css. When using the website the web browser will hash the css file and compare it to the key provided in the html. If they are different the css wont load and the integrity has been broken.
 
 ### Branch Variety
 
@@ -67,11 +67,11 @@ The full mood board for this project can be found [here](https://www.pinterest.c
 
 I ended up being quite drawn to space, neon lights and traditional japanese architecture. As I didn't think of wood textures would come out nicely on a web page I decided to use space as my inspiration I passed a space image through this [website](https://artsexperiments.withgoogle.com/artpalette/colors/231f28-475170-718eae-23324c-8d453c "Colour Image Website"). Which gave me the colour scheme I ended up using. The colours ended up a little flatter than expected but still worked well.
 
-For fonts I decided to use quite easy legible fonts all with smooth blocky letter. The way I found them was to use this [website](https://fontjoy.com/ "Font Generator") and some searching on the web.
+For fonts I decided to use some quite legible fonts all with smooth blocky letter. The way I found them was to use this [website](https://fontjoy.com/ "Font Generator") and some searching on the web.
  
 ### Wire Frame
 
-After mood boarding I used these wire frames to make an plan for how things are to be layed out on all my pages in both mobile and on desktop.
+After mood boarding I used these wire frames to make a plan for how things are to be layed out on all my pages in both mobile and on desktop.
 
 #### Home Page
 
@@ -108,7 +108,7 @@ Here are the final web pages of the website. Below each screenshot I've added a 
 
 ![Home Page Screenshot](./resources/documentation/home-page-screenshot.png)
 
-One small thing I changed here from the wire frame is I didn't make the navigation bar transparent. Just found too hard to read against the background and when scrolling over certain images.
+One small thing I changed here from the wire frame is I didn't make the navigation bar transparent. The reason for this is I found it too hard to read against the background and particularly scrolling over certain images.
 
 ![Home Page Mobile Screenshot](./resources/documentation/home-page-mobile-screenshot.png)
 
@@ -118,7 +118,7 @@ The main thing that I changed here from the original design is that I moved all 
 
 ![About Me Page Screenshot](./resources/documentation/about-me-screenshot.jpg)
 
-Change the layout quite a bit here made it a more card inspired layout. Just kept the top similar to the wire frame. Just felt this was a better way to display the information as there wasn't a lot of text involved.
+Change the layout quite a bit here made a more card inspired layout. Just kept the top similar to the wire frame. Just felt this was a better way to display the information as there wasn't a lot of text involved.
 
 ![About Me Page Mobile Screenshot](./resources/documentation/about-me-mobile-screenshot.png)
 
@@ -128,7 +128,7 @@ Only changed the navigation bar here.
 
 ![Projects Page Screenshot](./resources/documentation/projects-screenshot.jpg)
 
-This page I because there was more text required than I felt looked good in a card format.
+This page I changed from the wire frame because there was more text required than I felt looked good in a card format.
 
 ![Projects Page Mobile Screenshot](./resources/documentation/projects-mobile-screenshot.png)
 
@@ -138,11 +138,11 @@ Like all other mobile pages I just changed the navigation.
 
 ![Blog Page Screenshot](./resources/documentation/blog-screenshot.jpg)
 
-Didnt change much here apart from blogs ending up bigger than predicted.
+Ended up scrapping the blog sub navigation bar as there weren't enough blogs and time. I also felt the page would have become a little too cluttered for my liking.
 
 ![Blog Page Mobile Screenshot](./resources/documentation/blog-mobile-screenshot.png)
 
-Kept this the same as the wire frame apart from the navigation bar.
+Removed the blog sub navigation here too and changed the navigation bar.
 
 ### Target Audience
 
