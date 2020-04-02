@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Archivo+Narrow|Arimo|Exo+2|Rubik|Source+Sans+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Archivo+Narrow|Arimo|Exo+2|Rubik|Source+Sans+Pro&display=swap");
 .top {
   z-index: 100;
   background-color: #231f28;
@@ -59,7 +58,7 @@
   width: 30%;
   margin-right: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 .top .contact .icon {
@@ -225,54 +224,37 @@ form {
     left: -15vw;
   }
 }
-.content {
-  height: 85vh;
+.home-content {
+  height: 100vh;
   display: flex;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
 }
-.content h1 {
-  display: relative;
+.home-content .title {
+  text-align: center;
+  animation: float 2s infinite ease-in-out;
+}
+.home-content .title h1 {
   font-family: "Exo 2", sans-serif;
-  font-size: 5em;
+  font-size: 12vw;
+}
+.home-content .title h3 {
+  font-family: "Exo 2", sans-serif;
+  font-size: 5vw;
 }
 
-.arrow-up {
-  display: relative;
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid black;
+@keyframes float {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
-
-.arrow-down {
-  display: inline;
-  width: 0;
-  height: 0;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 20px solid #f00;
-}
-
-.arrow-right {
-  display: inline;
-  width: 0;
-  height: 0;
-  border-top: 60px solid transparent;
-  border-bottom: 60px solid transparent;
-  border-left: 60px solid green;
-}
-
-.arrow-left {
-  display: inline;
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid blue;
-}
-
 .blog-content .project {
   width: 100%;
   display: flex;
@@ -587,7 +569,8 @@ body {
 body .content {
   display: flex;
   flex-flow: column;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
 }
 body .content h2 {
   margin-top: 15vh;
