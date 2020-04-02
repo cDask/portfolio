@@ -156,5 +156,3 @@ These are the technologies used in this project
 -   CSS and SASS for design
 -   Git and Github for version control
 -   Netlify to host and deploy my website
-
-
