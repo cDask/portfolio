@@ -98,41 +98,47 @@ Here are the final web pages of the website. Below each screenshot I've added a 
 
 #### Home Page
 
-![]()
+![Home Page Screenshot](./resources/documentation/home-page-screenshot.png)
 
+One small thing I changed here from the wire frame is I didn't make the navigation bar transparent. Just found too hard to read against the background and when scrolling over certain images.
 
-
-![]()
+![Home Page Mobile Screenshot](./resources/documentation/home-page-mobile-screenshot.png)
 
 The main thing that I changed here from the original design is that I moved all navigation into a drop down menu in order to fit more information without having to squeeze all navigation into a small space. This was repeated on all sites on mobile.
 
 #### About Me Page
 
-![]()
+![About Me Page Screenshot](./resources/documentation/about-me-screenshot.jpg)
 
+Change the layout quite a bit here made it a more card inspired layout. Just kept the top similar to the wire frame. Just felt this was a better way to display the information as there wasn't a lot of text involved.
 
+![About Me Page Mobile Screenshot](./resources/documentation/about-me-mobile-screenshot.png)
 
-![]()
+Only changed the navigation bar here.
 
 #### Projects Page
 
-![]()
+![Projects Page Screenshot](./resources/documentation/projects-screenshot.jpg)
 
+This page I because there was more text required than I felt looked good in a card format.
 
+![Projects Page Mobile Screenshot](./resources/documentation/projects-mobile-screenshot.png)
 
-![]()
+Like all other mobile pages I just changed the navigation.
 
 #### Blog Page
 
-![]()
+![Blog Page Screenshot](./resources/documentation/blog-screenshot.jpg)
 
+Didnt change much here apart from blogs ending up bigger than predicted.
 
+![Blog Page Mobile Screenshot](./resources/documentation/blog-mobile-screenshot.png)
 
-![]()
+Kept this the same as the wire frame apart from the navigation bar.
 
 ### Target Audience
 
-The main target audience for this project is potential employers and recruiters in order for them to get a grasp at my technical skills as well as get to know me a little more.
+The main target audience for this project is potential employers and recruiters in order for them to get a grasp of my technical skills as well as get to know me a little better. 
 
 ### Tech Stack
 
@@ -142,10 +148,5 @@ These are the technologies used in this project
 -   CSS and SASS for design
 -   Git and Github for version control
 -   Netlify to host and deploy my website
-
-
-        Sitemap
-        Screenshots
-        Target audience
 
 
