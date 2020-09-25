@@ -15,10 +15,11 @@
 
 body {
   background: url("./resources/images/photo-of-night-sky-png.png");
-  background-size: 100wv;
+  background-size: 100vw 100vh;
   background-repeat: no-repeat;
   background-color: $main;
-  // background-position: center;
+  background-position: center;
+  background-attachment: fixed;
   .content {
     display: flex;
     flex-flow: column;

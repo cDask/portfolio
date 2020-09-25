@@ -562,9 +562,11 @@ form {
 
 body {
   background: url("./resources/images/photo-of-night-sky-png.png");
-  background-size: 100wv;
+  background-size: 100vw 100vh;
   background-repeat: no-repeat;
   background-color: #231f28;
+  background-position: center;
+  background-attachment: fixed;
 }
 body .content {
   display: flex;
